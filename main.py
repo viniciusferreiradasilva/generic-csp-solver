@@ -11,7 +11,7 @@ def generate_grid(size):
     grid[:] = b'.'
     return grid
 
-
+# A simple example.
 grid = generate_grid(4)
 csp = EbmCsp(grid, ['X', 'O'])
 solver = CspSolver()

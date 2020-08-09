@@ -5,7 +5,7 @@ from csp.Csp import Csp
 class EbmCsp(Csp):
     """Implementing a Extreme Binary Matrices CSP problem.
 
-    All the generic methods makes a csp able to be solved by the csp solver.
+    All the generic methods makes a csp able to be solved by the CSP solver.
     """
 
     def __init__(self, grid, domain):
